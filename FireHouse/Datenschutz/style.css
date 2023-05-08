@@ -1,0 +1,149 @@
+/* Header */
+@font-face {
+    font-family: 'Billabong';
+    src: url('fonts/billabong.ttf') format('truetype');
+    
+  }
+  
+  a {
+    color: black;
+  }
+  .header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  @media (min-width: 1024px) {
+    .header {
+      display: none;
+    }
+  }
+   .Startseite, .Contact, .Career {
+    font-family: 'Billabong', sans-serif;
+    font-size: 28px;
+    margin-top: 10px
+  }
+  
+  .icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+  }
+  @media (max-width: 768px) {
+    .icons a {
+      margin-right: 0px;
+      
+    }
+    }
+    footer {
+      color: #333;
+      font-size: 16px;
+      
+    }
+    
+    footer a {
+      color: #333;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      text-decoration: none;
+    }
+    
+    footer span {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    /* Sidebar */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 270px;
+      height: 100%;
+      border-right: 1px solid lightgrey;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+    }
+    
+    @media (max-width: 1000px) {
+      .sidebar {
+        display: none;
+      }
+    }
+    @media (max-width: 1650px) {
+      .sidebar {
+        width: 57px;
+        padding: 5px;
+        
+      }
+    }
+    /* @media (min-width:1400px) and (max-width: 1600px) {
+      .sidebar {
+        width: 150px;
+        padding: 5px;
+        
+      }
+    } */
+    @media (max-width: 1650px) {
+          .sidebar-span {
+            display: none;
+          }
+    }
+    
+    .sidebar-header {
+      font-size: 38px;
+      font-family: 'Billabong', sans-serif;
+    }
+    @media (max-width: 1650px) {
+      .sidebar-header {
+        font-size: 16px;
+        margin-left: 0px!important;
+        
+      }
+    }
+    @media (max-width: 1650px) {
+      .sidebar-buttons {
+        
+        margin-left: 6px!important;
+        
+      }
+    }
+    @media (min-width: 1750px) and (max-width: 1850px) {
+      .sidebar {
+        width: 200px;
+        
+        
+      }
+    }
+    @media (min-width: 1650px) and (max-width: 1750px) {
+      .sidebar {
+        width: 175px;
+        
+        
+      }
+    }
+    .verification { 
+
+      width: 15px;
+      height: 15px;
+    }
+    .sidebar-logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    @media (max-width: 1650px) {
+      .sidebar-logo {
+        width: 50px!important;
+        height: 50px!important;
+        
+        
+      }
+    }
+    /* Main */
+  

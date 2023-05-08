@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Firehouse</title>
+    
+</head>
+
+<!-- Cookie window -->
+  <body onload="showCookieModal()">
+    <div id="cookie-modal">
+      <div class="modal-content">
+        <h2>Cookies</h2>
+        <p>Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie diese Website weiter nutzen, stimmen Sie der Verwendung von Cookies zu. Bitte überprüfen Sie unser <a href="../FireHouse/Datenschutz/Datenschutz.html">Datenschutz</a> für weitere Informationen.</p>
+        <div class="modal-buttons">
+          <button onclick="acceptCookies()">Akzeptieren</button>
+          <button onclick="rejectCookies()">Zurückweisen</button>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Site Header -->
+  <!-- Mobile Nav -->
+  <header>
+    <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light" style="height: 80px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-size: 42px; font-family: 'Billabong', cursive;">Firehouse</a>
+        <div class="icons d-flex justify-content-end">
+          <div class="Career ms-2 mt-2">
+            <a href="#career" class="text-decoration-none">
+              <img src="icons/career.png" alt="Icon 3" width="33" height="33">
+              <span class="text-center">Karriere</span>
+            </a>
+          </div>
+          <div class="About ms-2 mt-2">
+            <a href="#" class="text-decoration-none">
+              <img src="icons/home (1).png" alt="Icon 1" width="32" height="32">
+              <span class="text-center">Startseite</span>
+            </a>
+          </div>
+          
+          <div class="Contact ms-2 mt-2">
+            <a href="../FireHouse/Contact/Contact.html" class="text-decoration-none">
+              <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+              <span class="text-center">Contact</span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </nav>
+  </section>
+
+<!-- PC nav -->
+<nav>
+  <div class="sidebar">
+    <img src="icons/logo.png" alt="logo" class="text-center sidebar-logo mt-3"> 
+    
+    <h1 class="sidebar-header mt-3 ms-2">Fire-house.de</h1>
+    
+    
+    <div class="mt-5 sidebar-buttons">
+      <a href="#" class="text-decoration-none">
+        <img src="icons/home (1).png" alt="Icon 1" width="32" height="32">
+        <span class="text-center ms-3 sidebar-span" style="font-size: 17px">Startseite</span>
+      </a>
+    </div>
+
+    <div class="mt-5 sidebar-buttons">
+      <a href="#career" class="text-decoration-none">
+        <img src="icons/career.png" alt="Icon 3" width="33" height="33">
+        <span class="text-center ms-3 sidebar-span" style="font-size: 17px">Karriere</span>
+      </a>
+    </div>
+
+    <div class="mt-5 sidebar-buttons">
+            <a href="../FireHouse/Contact/Contact.html" class="text-decoration-none">
+              <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+              <span class="text-center ms-3 sidebar-span" style="font-size: 17px">Contact</span>
+            </a>
+          </div>
+          <div class="mt-5 sidebar-buttons">
+            <a href="#feedbacks" class="text-decoration-none">
+              <img src="icons/like.png" alt="Icon 3" width="32" height="32">
+              <span class="text-center ms-3 sidebar-span" style="font-size: 16px">Referenzen</span>
+            </a>
+          </div>
+    </div>
+  </nav>
+  
+
+  </header>
+  <!-- Main -->
+
+<!-- Profile head -->
+<main>
+  <section class="Home">
+    <div class="container">
+      <div class="button-row d-flex">
+        <h2 class="mt-3">firehouse_office <img src="icons/ver.PNG" alt="verification" class="verification"></h2>
+        
+          <button class="mt-3 mx-3 head-buttons head-first-button"><a href="../FireHouse/Contact/Contact.html" >Folgen</a></button>
+          <button class="mt-3 me-3 head-buttons head-second-button" ><a href="../FireHouse/Contact/Contact.html" >Nachricht senden</a></button>
+        </div>
+          
+       
+
+
+      <div class="row">
+        <div class="column ">
+          <img src="icons/logo.png" alt="logo" class="head-logo mt-3"> 
+          <Strong><p class="mt-3">firehouse</p></Strong>
+        </div>
+        <div class="column mt-5 text-center">
+          <Strong> <p class="mg">Beiträge </p></Strong>
+          <p>5 </p>
+        </div>
+        <div class="column mt-5 text-center">
+          <Strong><p class="mg">Follower</p></Strong>
+          <p>2718</p>
+        </div>
+        <div class="column mt-5 text-center me-3">
+          <Strong> <p class="mg">Gefolgt</p></Strong>
+          <p>128</p>
+        </div>
+        <p class="text-grey">Personalvermittler<p></p>
+        <p>Wir forden Unternehmen bei der Gewinnung von qualifizierten Fachkraften. Unsere "Werkzeuge" dafur: die Sozialen medien und kluge Marketing Strategien</p>
+        <p class="link"><a href="http://www.fire-house.de">www.fire-house.de</a></p>
+      </div>
+        </div>
+  </section>
+  
+
+    
+  <section class="Carousel">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-12 col-sm-12">
+          <div class="right d-flex justify-content-between">
+            
+            <div class="head d-flex align-items-center mb-3 ">
+            <img src="icons/logo.png" alt="logo" class="logo mt-3 mx-2">
+             <div class="logo-text align-items-center mx-1 justify-content-between">
+            <p class="logo-text-head mb-0">Fire-House.de</p> 
+             <p class="logo-text-p">Deutschland</p>
+             
+          </div>
+          
+          </div>
+          <div class="dots"><img src="icons/dots.png" alt="dots" width="24px" height="24px" class="mt-4 me-3"></div>
+        </div>
+
+    
+          <div class="carousel">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/carousel1.jfif" class="d-block w-100 img1" alt="Photo 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/carousel2.jfif" class="d-block w-100 img2" alt="Photo 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/carousel3.jfif" class="d-block w-100 img3" alt="Photo 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="head d-flex justify-content-between ms-3">
+            <div class="icons d-flex mt-3 ">
+              <div class="icons-block">
+                  <img src="icons/heart.png" alt="Icon 1" width="32" height="32">
+              </div>
+              <div class="mx-3">
+                  <img src="icons/comment.png" alt="Icon 2" width="32" height="32">
+              </div>
+              <div>
+                  <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+              </div>
+            </div>
+            <div class="icons-right ">
+              <div class="mt-3 me-3">
+                <img src="icons/bookmark.png" alt="Icon 2" width="32" height="32">
+              </div>
+            </div>
+          </div>
+          <p class="ms-3 mb-2"><strong>1204 likes</strong></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="Description mb-3 px-3">
+            <p class="Text"><strong>FireHouse:</strong> FireHouse: Wir sind ein junges Personalvermittlungsunternehmen mit großer Branchenkenntnis und Effizienz. Unser Ziel ist es, Unternehmen mit den besten Kandidaten zusammenzubringen und Arbeitssuchenden zu helfen, ihre Traumkarriere zu finden. Unser Team aus erfahrenen Personalvermittlern verfügt über umfassende Kenntnisse in verschiedenen Branchen und arbeitet eng mit Unternehmen zusammen, um deren Anforderungen zu verstehen und Kandidaten zu finden, die perfekt zu ihren Bedürfnissen passen..</p>
+            <p class="tags">#FireHouse
+              #Stellenangebote
+              #Karrierechancen
+              #Jobsuche
+              #Karrieremöglichkeiten
+              #Arbeitsmarkt
+              #Recruiting
+              #Personalbeschaffung
+              #Talentsuche
+              #Bewerbungstipps
+              #Arbeitgeber</p>
+          </div>
+          <p class="ms-3">vor 8 Stunden</p> 
+        </div>
+        
+      </div>
+    </div>
+  </section>
+    
+    <!-- Video post -->
+    <section class="Video">
+    <div class="container">
+      <div class="right d-flex justify-content-between">
+              
+        <div class="head d-flex align-items-center mb-3 ">
+        <img src="icons/logo.png" alt="logo" class="logo mt-3 mx-2">
+       
+         <div class="logo-text align-items-center mx-1 justify-content-between">
+          
+        <p class="logo-text-head mb-0">Fire-House.de  <img src="icons/ver.PNG" alt="verification" class="verification"></p> 
+        
+         <p class="logo-text-p">Original Audio</p>
+         
+      </div>
+      
+      </div>
+      <div class="dots"><img src="icons/dots.png" alt="dots" width="24px" height="24px" class="mt-4 me-3"></div>
+    </div>
+
+        <div class="col-12 text-center mb-3">
+          <video controls>
+            <source src="videos/video.MP4" type="video/mp4" class="video">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="head d-flex justify-content-between ms-3">
+          <div class="icons d-flex mt-3">
+
+            <div class="icons-block">
+                <img src="icons/heart.png" alt="Icon 1" width="32" height="32">
+            </div>
+            <div class="mx-3">
+                <img src="icons/comment.png" alt="Icon 2" width="32" height="32">
+            </div>
+            <div>
+                <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+            </div>
+          </div>
+          <div class="icons-right ">
+            <div class="mt-3 me-3">
+              <img src="icons/bookmark.png" alt="Icon 2" width="32" height="32">
+            </div>
+          </div>
+        </div>
+        <p class="ms-3 mb-0"><strong>Gefällt 1482</strong> </p>
+      </div>
+    </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-12 col-sm-12">
+            <div class="Description mb-3 px-3">
+              <p class="Text mt-2"><strong>firehouse_office:</strong>  Wir helfen Unternehmen, Talente zu finden und einzustellen. Deshalb suchen wir aktiv auf Schwarzen Brettern, in sozialen Medien und in unseren eigenen Netzwerken nach geeigneten Kandidaten. Wir führen Vorstellungsgespräche und prüfen Referenzen, um sicherzustellen, dass die Bewerber die Anforderungen des Unternehmens erfüllen. Wir können auch Schulungen anbieten, um die Kandidaten auf die Anforderungen des Unternehmens vorzubereiten. Unser Personalvermittlungsunternehmen koordiniert den gesamten Prozess der Kandidatensuche und -rekrutierung und sorgt dafür, dass Kandidat und Unternehmen gleichermaßen zufrieden sind.
+              </p>
+              
+            </div>
+            <p class="ms-3">vor 14 Stunden</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+<!-- Post with feedbacks -->
+<section class="feedbacks" id="feedbacks">
+  <div class="container">
+    <div class="row">
+      <div class="right d-flex justify-content-between">
+              
+        <div class="head d-flex align-items-center mb-1 ">
+        <img src="icons/logo.png" alt="logo" class="logo mt-3 mx-2">
+         <div class="logo-text align-items-center mx-1 justify-content-between">
+        <p class="logo-text-head mb-0">Fire-House.de  <img src="icons/ver.PNG" alt="verification" class="verification"></p> 
+         <p class="logo-text-p">Original audio</p>
+         
+      </div>
+      
+      </div>
+      <div class="dots"><img src="icons/dots.png" alt="dots" width="24px" height="24px" class="mt-4 me-3"></div>
+    </div>
+
+    <h2 class="text-center mb-3"></h2>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-1">
+        <img src="images/1.png" class=" i1" alt="Photo 1">
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Diese Recruiting-Firma ist ausgezeichnet: professionell, effektiv und zuverlässig..</p>
+          <div class="card-date">Yesterday</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-2">
+        <img src="images/2.png" class="card-img-top i2" alt="Photo 2">
+        <div class="card-body">
+          <h5 class="card-title">Terry Dias</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Dieses Recruiting-Agentur ist sehr professionell und zuverlässig. Ich empfehle es gerne weiter.</p>
+          <div class="card-date">weeks ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-3">
+        <img src="images/3.png" class="card-img-top i3" alt="Photo 3">
+        <div class="card-body">
+          <h5 class="card-title">Ahmad Vaccaro</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Firebase und seine Dienste sind einfach perfekt! Es hat mein Geschäftsleben so viel einfacher gemacht! 5 Sterne</p>
+          <div class="card-date">4 days ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-4">
+        <img src="images/4.png" class="card-img-top i4" alt="Photo 4">
+        <div class="card-body">
+          <h5 class="card-title">Allison Culhane</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Hervorragende Produkte, überragender menschlicher Support..
+            
+          </p>
+          <div class="card-date">Two weeks ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-5">
+        <img src="images/5.png" class="card-img-top i5" alt="Photo 5">
+        <div class="card-body">
+          <h5 class="card-title">Jessie Grant </h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Das Recruiting-Unternehmen bietet einen ausgezeichneten Service, ist sehr effektiv und arbeitet schnell. Empfehlenswert!</p>
+          <div class="card-date">5 days ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-6">
+        <img src="images/6.png" class="card-img-top i6"  alt="Photo 6">
+        <div class="card-body">
+          <h5 class="card-title">James Workman</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Ich hatte eine großartige Erfahrung mit diesem Recruiting-Unternehmen. Das Team war sehr hilfreich und effizient bei der Suche nach dem richtigen Job für mich</p>
+          <div class="card-date">3 days ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-7">
+        <img src="images/7.png" class="card-img-top i7" alt="Photo 7">
+        <div class="card-body">
+          <h5 class="card-title">Ben Calahen</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Ich hatte eine großartige Erfahrung mit diesem Recruiting-Unternehmen. Das Team war sehr hilfreich und effizient bei der Suche nach dem richtigen Job für mich</p>
+          <div class="card-date">Two weeks ago</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card h-100 card-8">
+        <img src="images/8.png" class="card-img-top i8" alt="Photo 8">
+        <div class="card-body">
+          <h5 class="card-title">Davis Herwitz</h5>
+          <div class="rating">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star"></i></span>
+          </div>
+          <p class="card-text">Diese Recruiting-Firma ist wirklich beeindruckend: Sie liefert exzellente Ergebnisse und bietet einen hervorragenden Service.</p>
+          <div class="card-date">week ago</div>
+        </div>
+      </div>
+    </div>
+    </div>
+      
+      </div>
+      </div>
+      </section>
+      
+      <section class="Icons-section">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+      <div class="head d-flex justify-content-between ms-3">
+        <div class="icons d-flex mt-3">
+          <div class="icons-block">
+              <img src="icons/heart.png" alt="Icon 1" width="32" height="32">
+          </div>
+          <div class="mx-3">
+              <img src="icons/comment.png" alt="Icon 2" width="32" height="32">
+          </div>
+          <div>
+              <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+          </div>
+        </div>
+        <div class="icons-right ">
+          <div class="mt-3 me-3">
+            <img src="icons/bookmark.png" alt="Icon 2" width="32" height="32">
+          </div>
+        </div>
+      </div>
+      <p class="ms-3 mb-2"><strong>1514 likes</strong></p>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="text">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="Description mb-3 px-3">
+        <p class="Text"><strong>FireHouse:</strong>  Der Bewertungsblock für eine HR-Firma bietet potenziellen Kunden die Möglichkeit, Feedback von aktuellen und früheren Kunden zu lesen. Dies gibt ihnen einen Einblick in die Erfahrungen anderer Kunden und hilft ihnen bei der Entscheidung, ob sie mit der HR-Firma zusammenarbeiten möchten oder nicht. Die Bewertungen können verschiedene Aspekte des HR-Dienstleistungsangebots bewerten, einschließlich der Qualität der Beratung, der Geschwindigkeit und Effizienz des Rekrutierungsprozesses und des Kundenservice. Diese Bewertungen können auch dazu beitragen, das Vertrauen und das Ansehen der HR-Firma zu stärken und ihr dabei helfen, ihr Geschäft zu erweitern und neue Kunden zu gewinnen</p>
+        <p class="tags">#FireHouse
+          #Stellenangebote
+          #Karrierechancen
+          #Jobsuche
+          #Karrieremöglichkeiten
+          #Arbeitsmarkt
+          #Recruiting
+          #Personalbeschaffung
+          #Talentsuche
+          #Bewerbungstipps
+          #Arbeitgeber</p>
+      </div>
+      <p class="ms-3">vor 21 Stunden</p> 
+    </div>
+    
+  </div>
+</div>
+</section>
+
+
+<!-- career post -->
+      <section class="forwhom">
+        <div class="container">
+            <div class="row">
+              <div class="right d-flex justify-content-between">
+              
+                <div class="head d-flex align-items-center mb-3 ">
+                <img src="icons/logo.png" alt="logo" class="logo mt-3 mx-2">
+                 <div class="logo-text align-items-center mx-1 justify-content-between">
+                <p class="logo-text-head mb-0">Fire-House.de  <img src="icons/ver.PNG" alt="verification" class="verification"></p> 
+                 <p class="logo-text-p">Hannover</p>
+                 
+              </div>
+              
+              </div>
+              <div class="dots"><img src="icons/dots.png" alt="dots" width="24px" height="24px" class="mt-4 me-3"></div>
+            </div>
+  
+                <div class="col-12">
+                
+            </div>
+            <div class="row mb-5 text-center ms-1">
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">Bringen Sie Ihre Karriere auf die nächste Stufe!</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">Die besten Ergebnisse sind garantiert!</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">Wenn Sie sich an uns wenden, erhalten Sie maximale Ergebnisse in kürzester Zeit</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                      Ein einzigartiger Ansatz, der genau auf Ihre Anforderungen zugeschnitten ist!
+                    </h5>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <section class="Icons-section2">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+      <div class="head d-flex justify-content-between ms-3">
+        <div class="icons d-flex mt-3">
+          <div class="icons-block">
+              <img src="icons/heart.png" alt="Icon 1" width="32" height="32">
+          </div>
+          <div class="mx-3">
+              <img src="icons/comment.png" alt="Icon 2" width="32" height="32">
+          </div>
+          <div>
+              <img src="icons/direct-instagram.png" alt="Icon 3" width="32" height="32">
+          </div>
+        </div>
+        <div class="icons-right ">
+          <div class="mt-3 me-3">
+            <img src="icons/bookmark.png" alt="Icon 2" width="32" height="32">
+          </div>
+        </div>
+      </div>
+      <p class="ms-3 mb-2"><strong>Gefällt 1360</strong></p>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="text">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="Description mb-3 px-3">
+        <p class="Text"><strong>firehouse_office:</strong> Wir sind ein führendes Recruiting-Unternehmen und möchten euch heute unsere aktuellen Stellenangebote vorstellen. Wir suchen talentierte und motivierte Mitarbeiter für verschiedene Positionen in den Bereichen IT, Marketing, Vertrieb und mehr.
+
+          Wenn ihr auf der Suche nach einer neuen Herausforderung seid oder eure Karriere auf das nächste Level bringen möchtet, seid ihr bei uns genau richtig! Wir bieten unseren Mitarbeitern eine positive und teamorientierte Arbeitsumgebung sowie viele Möglichkeiten zur Weiterbildung und persönlichen Entwicklung.
+          
+          Schaut doch mal auf unserer Webseite vorbei oder sendet uns eure Bewerbungsunterlagen direkt zu. Wir freuen uns darauf, von euch zu hören!</p>
+          <p class="tags">#FireHouse
+            #Stellenangebote
+            #Karrierechancen
+            #Jobsuche
+            #Karrieremöglichkeiten
+            #Arbeitsmarkt
+            #Recruiting
+            #Personalbeschaffung
+            #Talentsuche
+            #Bewerbungstipps
+            #Arbeitgeber</p>
+      </div>
+      <p class="ms-3">vor 23 Stunden</p> 
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mb-5 mt-3">
+          <a href="../FireHouse/Contact/Contact.html" class ="career-button">Jetzt bewerben!</a>
+      </div>
+    </div>
+    
+    <!-- footer -->
+  </div>
+</div>
+<footer class="bg-light" style="height: 150px;" id="career">
+  <div class="container h-100">
+    <div class="row h-50 align-items-center">
+      <div class="col-12 text-center">
+        <a href="../FireHouse/Impressum/Impressum.html" class="me-3">Impressum</a>
+        <a href="../FireHouse/Datenschutz/Datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <div class="row h-50 align-items-center">
+      <div class="col-12 text-center">
+        <span>© 2023 Fire House</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  
+  
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/68f4b339db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

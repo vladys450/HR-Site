@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Billabong';
+    src: url('fonts/billabong.ttf') format('truetype');
+    
+  }
+  
+  .header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Billabong', sans-serif;
+    font-size: 28px;
+  }
+  @media (min-width: 1024px) {
+    .header {
+      display: none;
+    }
+  }
+  a {
+    color: black;
+  }
+  .icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+  }
+  @media (max-width: 768px) {
+    .icons a {
+      margin-right: 0px;
+      
+    }
+    }
+    
+    
+    i {
+      font-size: 24px;
+    }
+    
+    
+    .ava {
+      border-radius: 50%;
+    }
+    .Icon {
+      width: 32px;
+      height: 32px;
+    }
+    @media (max-width: 768px) {
+      .Icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .online {
+      font-size: 12px;
+      color: gray;
+    }
+  
+    .bottom-input {
+      width: 100%;
+      padding: 10px;
+      
+    }
+    
+    .bottom-input input {
+      width: 90%;
+      padding: 8px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      box-sizing: border-box;
+
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      
+      font-family: Arial, sans-serif;
+    }
+    
+    label {
+      margin: 10px 0;
+    }
+   #fname, #lname, #email, #phone, #Message {
+      padding: 10px;
+      
+      border-radius: 5px;
+      box-shadow: 0 0 5px gray;
+      width: 250px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid lightgrey;
+    }
+    
+    input[type="submit"] {
+      background-color: rgb(98, 98, 185);
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      width: 250px;
+    }
+
+    #message, #message2, #message3, #message4, #message5 {
+      opacity: 0; 
+      transition: opacity 1s ease; 
+      
+    }
+    #message, #message2, #message3 {
+      font-size: 16px;
+      background-color: rgb(248, 247, 247);
+      padding: 8px;
+      border-radius: 25px;
+      display: inline-block;
+    }
+    @media (max-width: 768px) {
+      #message {
+        margin-right: 1rem!important;
+      }
+    }
+    @media (max-width: 768px) {
+      #message2 {
+        margin-right: 1rem!important;
+      }
+    }
+    @media (max-width: 768px) {
+      #message3 {
+        margin-right: 1rem!important;
+      }
+      }
+    
+    footer {
+      color: #333;
+      font-size: 16px;
+      
+    }
+    footer a {
+      color: #333;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      text-decoration: none;
+    }
+    
+    footer span {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 270px;
+      height: 100%;
+      border-right: 1px solid lightgrey;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+    }
+    
+    @media (max-width: 1000px) {
+      .sidebar {
+        display: none;
+      }
+    }
+    @media (max-width: 1650px) {
+      .sidebar {
+        width: 57px;
+        padding: 5px;
+        
+      }
+    }
+    /* @media (min-width:1400px) and (max-width: 1600px) {
+      .sidebar {
+        width: 150px;
+        padding: 5px;
+        
+      }
+    } */
+    @media (max-width: 1650px) {
+          .sidebar-span {
+            display: none;
+          }
+    }
+    
+    .sidebar-header {
+      font-size: 38px;
+      font-family: 'Billabong', sans-serif;
+    }
+    @media (max-width: 1650px) {
+      .sidebar-header {
+        font-size: 16px;
+        margin-left: 0px!important;
+        
+      }
+    }
+    @media (max-width: 1650px) {
+      .sidebar-buttons {
+        
+        margin-left: 6px!important;
+        
+      }
+    }
+    @media (min-width: 1750px) and (max-width: 1850px) {
+      .sidebar {
+        width: 200px;
+        
+        
+      }
+    }
+    @media (min-width: 1650px) and (max-width: 1750px) {
+      .sidebar {
+        width: 175px;
+        
+        
+      }
+    }
+    .verification { 
+
+      width: 15px;
+      height: 15px;
+    }
+    .sidebar-logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    @media (max-width: 1650px) {
+      .sidebar-logo {
+        width: 50px!important;
+        height: 50px!important;
+        
+        
+      }
+    }
+
+
+
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+  
